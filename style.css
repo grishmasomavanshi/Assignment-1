@@ -15,7 +15,7 @@ a{
 
 .backg{
     background: url(./images/back.png);
-      background-image: linear-gradient(rgba(45, 110, 112, 0.9),rgba(45, 110, 112, 0.9)),url(./images/back.png);
+      background-image: linear-gradient(rgba(45, 110, 112, 0.9),rgba(45, 110, 112, 0.9));
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
