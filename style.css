@@ -14,7 +14,7 @@ a{
 }
 
 .backg{
-    background: url(../wapikp/images/back.png);
+    background: url(./images/back.png);
       background-image: linear-gradient(rgba(45, 110, 112, 0.9),rgba(45, 110, 112, 0.9)),url(../wapikp/images/back.png);
     background-size: cover;
     background-repeat: no-repeat;
