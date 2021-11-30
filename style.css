@@ -562,7 +562,7 @@ input{
     margin-bottom: 20px;
 }
 
-.social-media :nth-child(1){
+.social-media i :nth-child(1){
     background: #55ACEE;
     width: 31px;
     height: 31px;
