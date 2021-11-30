@@ -500,7 +500,7 @@ width: 66%;
 .footer-1 img{
     width: 69px;
     height: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .footer h4 {
     font-size: 13px;
@@ -609,9 +609,120 @@ input{
     padding-top: 7px;
     color: #fff;
 }
+@media screen and (max-width: 1200px) {
+    #yourID{
+        display: none;
+    }
+    .navbar{
+        position: absolute;
+    width: 232px;
+    margin-left: -52px;
+    background-color: rgba(45, 110, 112, 0.9);
+    }
+    
+    #nav-icon1 span{
+        display: block;
+        margin:4px 4px 4px auto;
+        height: 4px;
+        width:40px;
+        background: #fff;
+        border-radius: 9px;
+    }
+    .welcom p{
+        width: 100%;
+    }
+    .feature p{
+        width: unset;
+    }
+    .feat{
+        flex-direction: column;
+    }
+    .feat2{
+        flex-direction: column;
+    }
+    .col1,.col2{
+        width: unset;
+    }
+    #anime{
+display: none;   
+     }
+     .rr{
+         width: 100%;
+     }
+     .res{
+         margin: 10% 10%;
+     }
+     .direct{
+         flex-direction: column-reverse;
+         margin-top: 0;
+     }
+     .direct img{
+         padding: 70px;
+     }
+     .text p{
+         width: 100%;
+     }
+     #p1{
+         font-size: 15px;
+     }
+     .built img{
+         display: none;
+     }
+    .builtp{
+        margin-left: 15%;
+    }
+    .all p{
+        width: 80%;
+    }
+    .plans{
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+    }
+   #parap{
+       width: 96%;
+   }
+   .plans h3 {
+font-size: 35px;
+   } 
+    .basic button{
+        height: 35px;
+        width: 100px;
+    }
+    .iplan{
+        width: 39%;
+        flex-direction: column;
+        grid-gap: 50px;
+    }
+    .help p{
+        width: 90%;
+    }
+    
+    .down{
+        flex-direction: column;
+    }
+
+    .download-btn{
+        margin-top: 5px;
+
+    }
+    .download{
+        margin-top: 40px;
+    }
+
+    .footer{
+        width: 95%;
+        margin-left: 5%;
+        }
+
+        .social-media{
+            width: 30%;
+        }
+}
 
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 640px) {
     #yourID{
         display: none;
     }
