@@ -173,7 +173,7 @@ border: 1px solid transparent;
 width: 3px;
 height: 91px;
 background: #F2F2F2;
-margin: 31px auto 0 auto;
+margin: 55px auto 0 auto;
 }
 
 .hori{
@@ -562,7 +562,7 @@ input{
     margin-bottom: 20px;
 }
 
-.social-media i :nth-child(1){
+#twt {
     background: #55ACEE;
     width: 31px;
     height: 31px;
@@ -573,7 +573,7 @@ input{
 }
 
 
-.social-media :nth-child(2){
+.social-media  :nth-child(2){
     background: #3F729B;
     width: 31px;
     height: 31px;
@@ -582,7 +582,7 @@ input{
     padding-top: 8px;
     color: #fff;
 }
-.social-media :nth-child(3){
+.social-media  :nth-child(3){
     background: #3F729B;
     width: 31px;
     height: 31px;
@@ -615,7 +615,7 @@ input{
     }
     .navbar{
         position: absolute;
-    width: 232px;
+    width: 218px;
     margin-left: -52px;
     background-color: rgba(45, 110, 112, 0.9);
     }
@@ -728,7 +728,7 @@ font-size: 35px;
     }
     .navbar{
         position: absolute;
-    width: 232px;
+    width: 120px;
     margin-left: -52px;
     background-color: rgba(45, 110, 112, 0.9);
     }
