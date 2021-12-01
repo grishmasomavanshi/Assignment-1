@@ -514,21 +514,27 @@ width: 66%;
 }
 
 .email{
+    border: none;
     display: flex;
     margin-top: 19px;
     align-items: center;
-}
-input{
-    border: 1px solid transparent;
     background: #EEF1EC;
-    width: 242px;
+    width: 250px;
+
+}
+#email{
+    border:none;
+    outline: none;
+    background: #EEF1EC;
+    width: 220px;
     height: 37px;
     padding-left: 15px;
 }
-.email img{
+#email-img{
     height: 18px;
     width: 18px;
-    margin-left: -10%;
+    margin-left: -10px;
+    padding-top: 2px;
 }
 
 .line{
